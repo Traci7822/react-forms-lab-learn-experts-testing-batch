@@ -1,7 +1,7 @@
 const React = require('react');
 
 function countWords(line) {
-  return line.split(' ').filter(l => l).length;
+  return line.toString().split(' ').filter(l => l).length;
 }
 
 function isValidPoem(poem) {
